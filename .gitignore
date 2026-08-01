@@ -1,0 +1,16 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.env
+*.env
+rsconnect/
+.quarto/
+_cache/
+_freeze/
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+renv/library/
+renv/staging/
