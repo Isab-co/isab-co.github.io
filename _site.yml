@@ -6,4 +6,10 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
+    - text: "acknowledgements"
+      href: ack.html
 output_dir: docs
+output:
+  html_document:
+    includes:
+      after_body: footer.html
