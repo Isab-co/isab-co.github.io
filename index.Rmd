@@ -1,6 +1,13 @@
 ---
 title: "My Website"
+output: 
+  html_document:
+    theme:
+      bg: "#ffffff"
+      fg: "#98919e"
 ---
+
+
 Hello, Website!
 
 For more information about simple R Markdown websites, please read the documentation at https://yihui.org/rmarkdown/rmarkdown-site.html.
