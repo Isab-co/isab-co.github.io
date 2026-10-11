@@ -3,10 +3,24 @@ title: "My Website"
 output: 
   html_document:
     theme:
-      bg: "#ffffff"
-      fg: "#98919e"
+      version: 5
+      fg: "#000000"
+      bg: "#98919e"
 ---
 
+<style>
+/* Turns the main content area into a white letter-sized card */
+.main-container {
+  background-color: #ffffff !important;
+  color: #212529 !important;
+  max-width: 850px !important;
+  padding: 60px !important;
+  margin-top: 40px !important;
+  margin-bottom: 40px !important;
+  border-radius: 6px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+</style>
 
 Hello, Website!
 
