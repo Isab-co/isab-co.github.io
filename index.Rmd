@@ -5,28 +5,39 @@ output:
     theme:
       version: 5
       fg: "#000000"
-      bg: "#98919e"
+      bg: "#c5bfc9"
+    code_folding: hide
 ---
 
+
 <style>
-/* Turns the main content area into a white letter-sized card */
 .main-container {
   background-color: #ffffff !important;
-  color: #212529 !important;
-  max-width: 850px !important;
+  color: #000000 !important;
+  max-width: 1500px !important;
   padding: 60px !important;
-  margin-top: 40px !important;
-  margin-bottom: 40px !important;
-  border-radius: 6px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  border-radius: 0px
 }
 </style>
 
-Hello, Website!
+lorem ipsum dolor sit amet consectetur adipiscing elit mollitia maxime incididunt dolor nostrud qui non illum quibusdam in exercitation maxime molestias tempore quod aliquip commodo nam officia repellendus cum et tempore facilis facilis exercitation est voluptate cupiditate possimus temporibus dolorem sint sunt vero deleniti irure voluptas et eu nisi odio
 
-TEST
+lorem ipsum dolor sit amet consectetur adipiscing elit voluptate est similique laborum duis maxime et facere anim sunt cupidatat fuga occaecat consequatur sunt nobis magna irure sint lorem maxime dolorem corrupti
 
-For more information about simple R Markdown websites, please read the documentation at https://yihui.org/rmarkdown/rmarkdown-site.html.
+View my latest projects:
 
-Please also note that simple R Markdown sites are _not_ based on **blogdown**. They are probably good for websites with only a few Rmd documents. For larger-scale and more sophisticated websites (such as blogs), you may want to use **blogdown** instead: https://github.com/rstudio/blogdown.
+```{r,warning=FALSE,message=FALSE}
+library(bslib)
 
+layout_column_wrap(
+card(full_screen=FALSE,height="200px",card_body(card_title("Project 1"))),
+card(full_screen=FALSE,height="200px",card_body(card_title("Project 2"))),
+card(full_screen=FALSE,height="200px",card_body(card_title("Project 3")))
+)
+
+```
+
+A/N: use card_image() in the tiles
+use a(class="link") in card_body()
