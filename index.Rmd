@@ -7,6 +7,8 @@ output:
       fg: "#000000"
       bg: "#c5bfc9"
     code_folding: hide
+    include:
+      after_body: footer.html
 ---
 
 
