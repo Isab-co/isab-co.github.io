@@ -13,3 +13,9 @@ output:
   html_document:
     includes:
       after_body: footer.html
+    theme:
+      version: 5
+      fg: "#000000"
+      bg: "#c5bfc9"
+    code_folding: hide
+    css: styles.css

@@ -12,18 +12,6 @@ output:
 ---
 
 
-<style>
-.main-container {
-  background-color: #ffffff !important;
-  color: #000000 !important;
-  max-width: 1000px !important;
-  padding: 60px !important;
-  margin-top: 0px !important;
-  margin-bottom: 0px !important;
-  border-radius: 0px
-}
-</style>
-
 This is my webpage. I've developed it to showcase projects I've worked on during college, and as personal projects after I graduated. 
 
 View my latest projects:
